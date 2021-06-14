@@ -42,7 +42,7 @@ const Login = (props) => {
   });
 
   const {isValid: emailIsValid} = emailState;
-  const {isValid: passwordIsValid} = emailState;
+  const {isValid: passwordIsValid} = passwordState;
 
   useEffect(() => {
     const identifier = setTimeout(() => {
